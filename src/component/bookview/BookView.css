@@ -1,0 +1,12 @@
+.book-container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 85vw;
+    margin: 20px auto;
+    /* display: grid;
+    grid-gap: 20px; */
+    /* background-color: darkcyan; */
+   
+}

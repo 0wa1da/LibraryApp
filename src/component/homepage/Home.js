@@ -9,7 +9,7 @@ export const Home=()=> {
         display:"grid",
         placeItems:"center",
         }}>
-        <img alt="" src="./logo.png" height="200px"/>
+        <img alt="logo" src="../logo.png" height="200px"/>
       </div>
       <div style={{   //notification area "container"
         paddingTop:"7vh",

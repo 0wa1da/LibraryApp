@@ -1,0 +1,27 @@
+.card-container{
+    display: grid;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    grid-template-rows:1fr 1fr ;
+    background-color: lightskyblue;
+    border:1px solid darkcyan;
+    border-radius: 5px;
+    padding: 10px 5px 5px 2px;
+    
+    margin:7px;
+    cursor: pointer;
+    transition: transform 0.25s ease-out;
+    width: 100px;
+    height:150px;
+    justify-content: center;
+    place-items: center;
+    
+    
+}
+.card-container:hover{
+    transform:scale(1.05)
+}
+.title-container{
+    /* height: 5px; */
+    overflow: hidden;
+}
